@@ -1,0 +1,256 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200 px;
+    background: #ffffff;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.icon {
+    float: left;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.judul {
+    font-size: 50px;
+    font-family: algerian;
+}
+
+.navbar {
+    float: left;
+    background: #4F77AA;
+    width: 100%;
+}
+
+.left_content {
+    width: 180px;
+    float: left;
+    padding: 0 0 0 5px;
+}
+
+.title_box {
+    width: 180px;
+    height: 30px;
+    margin: 5px 0 0 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: #159dcc;
+    line-height: 30px;
+}
+
+ul.left_menu {
+    width: 180px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+ul.left_menu li {
+    margin: 0px;
+    list-style: none;
+}
+
+ul.left_menu li.odd a {
+    width: 166px;
+    height: 25px;
+    display: block;
+    border-bottom: 1px #e4e4e4 dashed;
+    text-decoration: none;
+    color: #504b4b;
+    padding: 0 0 0 14px;
+    line-height: 25px;
+}
+
+ul.left_menu li.even a {
+    width: 166px;
+    height: 25px;
+    display: block;
+    border-bottom: 1px #e4e4e4 dashed;
+    background-color: #f0f4f5;
+    text-decoration: none;
+    color: #504b4b;
+    padding: 0 0 0 14px;
+    line-height: 25px;
+}
+
+ul.left_menu li.even a:hover,
+ul.left_menu li.odd a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.center_content {
+    width: 600px;
+    float: left;
+    padding: 5px 10px 5px 15px;
+}
+
+.oferta {
+    width: 585px;
+    height: 156px;
+    background: url(gambar/slider_bg.gif) no-repeat center;
+    float: left;
+    padding: 0px;
+    margin: 0 0 5px 5px;
+}
+
+.oferta_img {
+    float: left;
+    padding: 10px 0 0 10px;
+}
+
+.oferta_title {
+    font-size: 15px;
+    color: #159dcc;
+    font-weight: bold;
+}
+
+.oferta_details {
+    width: 340px;
+    float: left;
+    padding: 20px 0 0 30px;
+}
+
+.oferta_text {
+    padding: 5px 0 5px 0;
+    font-size: 12px;
+    color: #159dcc;
+    text-align: justify;
+    line-height: 15px;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    opacity: 0.9;
+    background-color: #78AED3;
+}
+
+ul {
+    width: fit-content;
+    margin: auto;
+}
+
+article {
+    width: 98.8%;
+    height: auto;
+    border-radius: 3px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid gainsboro;
+    clear: both;
+}
+
+article p {
+    padding: 5px 6px 5px 5px;
+    line-height: 1.5;
+}
+
+article .konten {
+    width: 23.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    float: left;
+}
+
+article .isi {
+    width: 98.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    float: left;
+}
+
+article .isi .judul {
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+article .isi p {
+    margin-top: 0;
+}
+
+article .isi img {
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+
+article .konten img {
+    width: 95.8%;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+}
+
+article .konten:hover {
+    opacity: 0.9;
+}
+
+article .konten .judul a {
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: x-large;
+    color: #020101;
+}
+
+article .konten a:hover {
+    opacity: 0.9;
+}
+
+.kotak-tentang {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 1000px;
+    padding: auto;
+    height: 250px;
+    border: 1px solid #AAC9DD;
+}
+
+.kotak-tentang img {
+    float: left;
+}
+
+.kotak-tentang p {
+    margin-top: 70px;
+}
+
+footer {
+    clear: both;
+    width: 98.8%;
+    height: auto;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border-bottom: 1px solid gainsboro;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+}
+
+.contact_form {
+    width: 355px;
+    padding: 0px 0 0 75px;
+}
